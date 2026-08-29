@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Chandler what do you say?",
+    "true_emotion": "neutral",
+    "predicted_emotion": "neutral",
+    "confidence": 0.869,
+    "response_text": "Oh, that's Chandler? Sounds friendly enough! What's up?",
+    "latency_ms": 1109.1
+  },
+  {
+    "text": "Wow, it looks like a, like a holiday card y'know, with the tree in the middle and the skaters and the snow.",
+    "true_emotion": "joy",
+    "predicted_emotion": "neutral",
+    "confidence": 0.497,
+    "response_text": "Oh wow, that's so festive! I'm glad you're enjoying the winter wonderland vibes.",
+    "latency_ms": 2413.9
+  },
+  {
+    "text": "Yes I did! And I put a little",
+    "true_emotion": "anger",
+    "predicted_emotion": "anger",
+    "confidence": 0.405,
+    "response_text": "Oh no, that must have really gotten under their skin!",
+    "latency_ms": 889.3
+  },
+  {
+    "text": "Are you kidding?",
+    "true_emotion": "surprise",
+    "predicted_emotion": "surprise",
+    "confidence": 0.802,
+    "response_text": "Oh, I see what you mean! That's quite an interesting reaction there.",
+    "latency_ms": 1142.4
+  },
+  {
+    "text": "Look, I really need some help, okay? Why? Why did I have to speak in a British accent?! What do I do?",
+    "true_emotion": "anger",
+    "predicted_emotion": "anger",
+    "confidence": 0.581,
+    "response_text": "Oh no! It looks like they're feeling frustrated and misunderstood. Let's see if we can find a way to make things clearer next time.",
+    "latency_ms": 1624.0
+  }
+]
