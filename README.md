@@ -147,18 +147,16 @@ More examples are saved in [`sample_run.json`](sample_run.json).
 
 ## 🚀 How to Run This Yourself
 
-```bash
-# 1. Install requirements
-pip install -r requirements.txt
+This project was built and run as a single Google Colab notebook - there's no separate script to install or run.
 
-# 2. Log in to Hugging Face (needed to download the dataset and models)
-python -c "from huggingface_hub import login; login()"
+1. Open [`Real_Time_Multimodal_ML_Challenge.ipynb`](Real_Time_Multimodal_ML_Challenge.ipynb) in Google Colab
+2. Set the runtime to a GPU (**Runtime → Change runtime type → T4 GPU**)
+3. Run the cells in order from top to bottom — the notebook installs its own dependencies (`transformers`, `datasets`, `soundfile`, etc.) as it goes
+4. You'll be prompted to log in with a Hugging Face access token partway through (needed to download the MELD dataset and pretrained models)
 
-# 3. Run the demo - feeds sample utterances through the full pipeline
-python scripts/run_demo.py
-```
+The notebook walks through the entire process end-to-end: loading and cleaning the data, building the encoders and classifier, training, evaluation, building the response generator, and the final real-time pipeline demo - each step is documented inline as it happens.
 
-See [`notebooks/training.ipynb`](notebooks/training.ipynb) for the full training process, kept for transparency.
+See [`Real_Time_Multimodal_ML_Challenge.ipynb`](Real_Time_Multimodal_ML_Challenge.ipynb) for the full training process, kept for transparency.
 
 ---
 
