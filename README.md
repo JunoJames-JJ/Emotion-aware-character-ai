@@ -124,7 +124,7 @@ One real input traveling through the full system, start to finish:
 }
 ```
 
-More examples are saved in [`outputs/sample_run.json`](outputs/sample_run.json).
+More examples are saved in [`sample_run.json`](sample_run.json).
 
 ---
 
